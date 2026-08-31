@@ -19,29 +19,29 @@ capability filter. It uses 16 items per axis and mode at one frozen revision,
 validates one-token `X`, `Y`, and `Z` answers and the single clean/corrupt token
 difference across templates A--C, and applies no prior-strength threshold or
 outcome-based item exclusion. The exact gate contract is recorded in
-`SEMANTIC-PREFLIGHT.md`.
+[`SEMANTIC-PREFLIGHT.md`](../docs/SEMANTIC-PREFLIGHT.md).
 
 ## Supplementary figures
 
-![](phase_a_curve.png)
+![](../figures/phase_a_curve.png)
 
 *Figure S1. Reversion (top), source-erased prior strength, and source
 contribution across the OLMo-2 1B trajectory (bottom). The panels share the
 training-token axis; the lower panel uses candidate-margin units.*
 
-![](choice_decomposition.png)
+![](../figures/choice_decomposition.png)
 
 *Figure S2. Candidate-choice decomposition across the complete OLMo-2
 trajectories. Lines show item-cluster means for the explicit source, parametric
 prior, and distractors; shaded regions mark the selected late transitions.*
 
-![](phase_b_deterministic_curve.png)
+![](../figures/phase_b_deterministic_curve.png)
 
 *Figure S3. Layer-wise source-donor patch effect for conflict and neutral items
 at the OLMo-2 1B 2496B-to-2999B transition. The dashed line marks the
 first-75%-depth summary boundary.*
 
-![](phase_b_srcpatch_curve.png)
+![](../figures/phase_b_srcpatch_curve.png)
 
 *Figure S4. Layer-wise source-donor patch effect at the OLMo-2 1B
 global-maximum pair (1909B-to-1993B) and selected template-robust pair
@@ -150,6 +150,6 @@ bootstrap 95% intervals.
 The complete semantic detail table is also available as
 `TABLE-S1-SEMANTIC-DETAILS.md`; the machine-readable fact sensitivity output
 and analysis definition are in `CLUSTER-SENSITIVITY.md` and
-`cluster_sensitivity.json`. The checksum and container provenance are recorded
-in `SUPPLEMENTARY-REPRODUCIBILITY-NOTE.md`. Raw semantic rows are retained in
-the experiment archive but are not yet deposited in a persistent public archive.
+`../results/canonical/cluster_sensitivity.json`. The packaged-file checksums
+are recorded in `../SHA256SUMS`. Raw semantic rows are not included in this
+public package; the pooled summary and derived tables are provided.

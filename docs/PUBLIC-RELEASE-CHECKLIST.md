@@ -12,8 +12,8 @@ release used in a submission.
 - [ ] Add author names, affiliations, ORCID IDs, and corresponding-author
       information to the manuscript and repository metadata.
 - [ ] Choose and add code/data licenses.
-- [ ] Replace the placeholder repository URL and release tag in
-      `DATA-AVAILABILITY.md` and the manuscript.
+- [x] Public repository URL and review release tag recorded in
+      `DATA-AVAILABILITY.md`.
 - [ ] Decide whether the raw semantic matrix may be redistributed; if yes,
       add it under a documented path, otherwise finalize the restricted-data
       statement.

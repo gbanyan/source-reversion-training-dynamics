@@ -53,4 +53,4 @@ run directory. The local review bundle does not contain those NAS-side raw
 preflight logs, so this note documents the executable contract rather than
 inventing a missing preflight statistic. The canonical scientific results
 remain the frozen confirmation artifacts listed in
-`CLAIM-EVIDENCE-MATRIX.md` and `REPRODUCIBILITY-AUDIT.md`.
+`CLAIM-EVIDENCE-MATRIX.md` and `PUBLIC-RELEASE-CHECKLIST.md`.

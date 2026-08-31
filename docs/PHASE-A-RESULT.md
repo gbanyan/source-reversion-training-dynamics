@@ -10,7 +10,7 @@ candidate ordering could depend on `PYTHONHASHSEED` across worker processes.
 The generator now preserves insertion order, all authoritative runs use
 `PYTHONHASHSEED=0`, and the complete 1B trajectory was rerun. Prompt SHA256 is
 identical under hash seeds 1 and 987. Pre-fix files remain discovery provenance
-only; see `REPRODUCIBILITY-AUDIT.md`.
+only; see `CLAIM-EVIDENCE-MATRIX.md` and `PUBLIC-RELEASE-CHECKLIST.md`.
 
 ## 1B deterministic trajectory
 

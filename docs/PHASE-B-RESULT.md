@@ -14,7 +14,7 @@ summary (not preregistered) uses layers
 
 The runner recomputes the unique differing token after rendering each template
 and aborts unless prompts remain token-aligned. This fixed an initial B/C
-positioning error documented in `REPRODUCIBILITY-AUDIT.md`.
+positioning error documented in the claim/evidence and public-release notes.
 
 ## 1B primary transition: 2496B→2999B
 

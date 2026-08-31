@@ -530,7 +530,7 @@ bootstrap summaries and are not confirmatory tests of a data-selected maximum.
 | OLMo-2 1B | 63B | 1909B | 1993B | 0.434 | [0.362, 0.523] | 121 |
 | OLMo-2 7B | 1901B | 3201B | 3896B | 0.230 | [0.158, 0.298] | 121 |
 
-![](paper_results_overview.png)
+![](../figures/paper_results_overview.png)
 
 *Figure 1. OLMo-2 checkpoint-wise source reversion and selected source-position
 residual-replacement effects. The left and middle panels show the 1B and
@@ -716,7 +716,7 @@ family-level hypothesis test.
 | Naturalistic | Source gain | 3.896 | 3.588 | 3.742 |
 | Naturalistic | Patch effect | 4.208 | 3.655 | 3.932 |
 
-![](semantic_pool_overview.png)
+![](../figures/semantic_pool_overview.png)
 
 *Figure 2. Conditional semantic source gain (left) and source-donor patch effect
 (right) at frozen peaks for Amber-7B and Pythia-6.9B. Values are in
@@ -884,32 +884,29 @@ a patch as source-content-specific mediation.
 
 ## 8. Reproducibility and availability
 
-The repository contains the analysis scripts, manifests, canonical summary JSON,
-and generated figures under `predictive-override/training-dynamics/`. The
-authoritative semantic pooled input is `cross_family_semantic_pool.json`; raw
-semantic outputs and checksum inventories are retained in the experiment
-archive described in the [supplementary reproducibility note](SUPPLEMENTARY-REPRODUCIBILITY-NOTE.md). Model weights are obtained from the
-public OLMo, Pythia, and Amber releases. At the time of this manuscript pass,
-the semantic raw matrix is not deposited in a public archive. Before
-submission, the repository-relative paths should be replaced by a persistent
-public code/data link, or a journal-compliant data-availability statement
-should explain any material that cannot be shared. A DOI-bearing archive is
-recommended for immutable versioning and data citation, but is not assumed
-here to be a universal submission prerequisite. The current checksum inventory
-and pinned container make the local result package auditable while that public
-release is prepared.
+The public review release at
+`https://github.com/gbanyan/source-reversion-training-dynamics` (tag
+`v0.1.1-review`) contains the analysis scripts, checkpoint manifests,
+canonical summary JSON, selected raw JSON artifacts, and generated figures.
+The authoritative semantic pooled summary is
+`results/canonical/cross_family_semantic_pool.json`; the complete semantic raw
+matrix is not included in this release. Model weights are obtained from the
+public OLMo, Pythia, and Amber releases. The release checksum file records the
+identity of the packaged artifacts.
 
 Supplementary Figures S1--S4 and Tables S1--S2 are supplied separately in
 `SUPPLEMENTARY.pdf` (source `SUPPLEMENTARY.md`). Their machine-readable values
 and regeneration notes remain available in `TABLE-S1-SEMANTIC-DETAILS.md`,
 `CLUSTER-SENSITIVITY.md`, and `cluster_sensitivity.json`.
 
-The main submission figures are [paper_results_overview.png](paper_results_overview.png)
-and [semantic_pool_overview.png](semantic_pool_overview.png). Scientific
-captions, allowed inferences, and canonical source mappings are collected in
-`FIGURE-TABLE-CAPTIONS.md`. The machine-readable semantic detail and
-fact-cluster sensitivity reports are `TABLE-S1-SEMANTIC-DETAILS.md` and
-`CLUSTER-SENSITIVITY.md`.
+The main submission figures are
+[paper_results_overview.png](../figures/paper_results_overview.png) and
+[semantic_pool_overview.png](../figures/semantic_pool_overview.png).
+Scientific captions, allowed inferences, and canonical source mappings are
+collected in [`FIGURE-TABLE-CAPTIONS.md`](../docs/FIGURE-TABLE-CAPTIONS.md).
+The machine-readable semantic detail and fact-cluster sensitivity reports are
+`TABLE-S1-SEMANTIC-DETAILS.md`, `CLUSTER-SENSITIVITY.md`, and
+`../results/canonical/cluster_sensitivity.json`.
 
 ## Declarations
 
@@ -932,15 +929,13 @@ prompts; it does not collect human or animal subject data.
 
 ### Data and code availability
 
-Analysis code and canonical summary artifacts are included in the repository.
-The final submission should replace repository-relative and local archive paths
-with a persistent public code/data link, and should state which model weights
-are redistributed versus obtained from the original releases. A versioned
-GitHub release can serve as the code entry point; archiving that release and the
-shareable semantic artifacts in a DOI-bearing repository is recommended for
-immutable citation. If any raw output cannot be made public, the data-
-availability statement should identify the restriction and the available
-replication artifacts.
+Analysis code, frozen configuration files, canonical summaries, selected raw
+JSON artifacts, and figures are available at
+`https://github.com/gbanyan/source-reversion-training-dynamics` (tag
+`v0.1.1-review`). The repository does not redistribute upstream model weights
+or third-party corpora. The complete semantic raw matrix is not included in
+this release; the validated pooled summary and derived tables are public, and
+access to any restricted raw material follows the applicable data terms.
 
 ### Generative-AI declaration
 

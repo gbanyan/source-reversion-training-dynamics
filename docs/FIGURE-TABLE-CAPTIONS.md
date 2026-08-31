@@ -86,12 +86,12 @@ that introduce them. Their canonical sources are:
 
 | Table | Source |
 |---|---|
-| 1 | `checkpoints_all.json`, `checkpoints_7b_replication.json`, `checkpoints_pythia_6.9b_coarse.json`, `checkpoints_amber_coarse.json`, `SEMANTIC-RUN-ENV.md` |
+| 1 | `configs/checkpoints_all.json`, `configs/checkpoints_7b_replication.json`, `configs/checkpoints_pythia_6.9b_coarse.json`, `configs/checkpoints_amber_coarse.json`, `docs/SEMANTIC-PREFLIGHT.md` |
 | 2 | `phase_a_summary.json`, `phase_a_7b_summary.json` |
 | 3 | `choice_decomposition_1b.json`, `choice_decomposition_7b.json` |
 | 4 | `phase_b_deterministic_summary.json`, `phase_b_7b_summary.json` |
 | 5 | `cross_family_semantic_pool.json` |
-| 6 | `cross_family_semantic_pool.json`, `REPRODUCIBILITY-AUDIT.md`, `deterministic_template_summary.json` |
+| 6 | `cross_family_semantic_pool.json`, `docs/CLAIM-EVIDENCE-MATRIX.md`, `deterministic_template_summary.json` |
 | S1 | `cross_family_semantic_pool.json`, rendered in `TABLE-S1-SEMANTIC-DETAILS.md` |
 | Fact sensitivity | `cluster_sensitivity.json`, rendered in `CLUSTER-SENSITIVITY.md` |
 
