@@ -28,6 +28,23 @@ Start with [`paper/MANUSCRIPT.pdf`](paper/MANUSCRIPT.pdf) for the article and
 [`paper/SUPPLEMENTARY.pdf`](paper/SUPPLEMENTARY.pdf) for the supplementary
 material. The source versions are provided alongside the PDFs.
 
+## Regenerating the PDFs
+
+The checked-in PDFs are generated from the Markdown sources with Pandoc and
+XeLaTeX. From `paper/`, with the repository's `figures/` directory available:
+
+```bash
+pandoc MANUSCRIPT.md -o MANUSCRIPT.pdf \
+  --from=markdown+tex_math_single_backslash --pdf-engine=xelatex \
+  --resource-path=.:../figures
+pandoc SUPPLEMENTARY.md -o SUPPLEMENTARY.pdf \
+  --from=markdown+tex_math_single_backslash --pdf-engine=xelatex \
+  --resource-path=.:../figures
+```
+
+Pandoc and XeLaTeX are system dependencies and are not installed by
+`requirements.txt`.
+
 ## Evidence package
 
 The canonical results are the JSON files in `results/canonical/`. They include

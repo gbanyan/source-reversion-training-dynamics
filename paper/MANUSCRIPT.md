@@ -886,7 +886,7 @@ a patch as source-content-specific mediation.
 
 The public review release at
 `https://github.com/gbanyan/source-reversion-training-dynamics` (tag
-`v0.1.1-review`) contains the analysis scripts, checkpoint manifests,
+`v0.1.2-review`) contains the analysis scripts, checkpoint manifests,
 canonical summary JSON, selected raw JSON artifacts, and generated figures.
 The authoritative semantic pooled summary is
 `results/canonical/cross_family_semantic_pool.json`; the complete semantic raw
@@ -932,7 +932,7 @@ prompts; it does not collect human or animal subject data.
 Analysis code, frozen configuration files, canonical summaries, selected raw
 JSON artifacts, and figures are available at
 `https://github.com/gbanyan/source-reversion-training-dynamics` (tag
-`v0.1.1-review`). The repository does not redistribute upstream model weights
+`v0.1.2-review`). The repository does not redistribute upstream model weights
 or third-party corpora. The complete semantic raw matrix is not included in
 this release; the validated pooled summary and derived tables are public, and
 access to any restricted raw material follows the applicable data terms.
