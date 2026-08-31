@@ -1,0 +1,18 @@
+{
+  "repo": "EleutherAI/pythia-6.9b-deduped",
+  "stage": "deduped",
+  "checkpoints": [
+    {"step": 0, "tokens_b": 0, "revision": "step0"},
+    {"step": 1000, "tokens_b": 2, "revision": "step1000"},
+    {"step": 2000, "tokens_b": 4, "revision": "step2000"},
+    {"step": 4000, "tokens_b": 8, "revision": "step4000"},
+    {"step": 8000, "tokens_b": 17, "revision": "step8000"},
+    {"step": 16000, "tokens_b": 34, "revision": "step16000"},
+    {"step": 32000, "tokens_b": 67, "revision": "step32000"},
+    {"step": 48000, "tokens_b": 101, "revision": "step48000"},
+    {"step": 64000, "tokens_b": 134, "revision": "step64000"},
+    {"step": 96000, "tokens_b": 201, "revision": "step96000"},
+    {"step": 120000, "tokens_b": 252, "revision": "step120000"},
+    {"step": 143000, "tokens_b": 300, "revision": "step143000"}
+  ]
+}

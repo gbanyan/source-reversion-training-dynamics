@@ -1,0 +1,20 @@
+{
+  "repo": "allenai/OLMo-2-0425-1B",
+  "stage": "stage1-dense-followup",
+  "selection": "Discovery follow-up around early rise and two late regime transitions",
+  "estimated_safetensors_bytes_per_checkpoint": 5939687552,
+  "checkpoints": [
+    {"step": 40000, "tokens_b": 84, "revision": "stage1-step40000-tokens84B"},
+    {"step": 50000, "tokens_b": 105, "revision": "stage1-step50000-tokens105B"},
+    {"step": 300000, "tokens_b": 630, "revision": "stage1-step300000-tokens630B"},
+    {"step": 810000, "tokens_b": 1699, "revision": "stage1-step810000-tokens1699B"},
+    {"step": 860000, "tokens_b": 1804, "revision": "stage1-step860000-tokens1804B"},
+    {"step": 910000, "tokens_b": 1909, "revision": "stage1-step910000-tokens1909B"},
+    {"step": 1000000, "tokens_b": 2098, "revision": "stage1-step1000000-tokens2098B"},
+    {"step": 1050000, "tokens_b": 2203, "revision": "stage1-step1050000-tokens2203B"},
+    {"step": 1100000, "tokens_b": 2307, "revision": "stage1-step1100000-tokens2307B"},
+    {"step": 1140000, "tokens_b": 2391, "revision": "stage1-step1140000-tokens2391B"},
+    {"step": 1330000, "tokens_b": 2790, "revision": "stage1-step1330000-tokens2790B"},
+    {"step": 1430000, "tokens_b": 2999, "revision": "stage1-step1430000-tokens2999B"}
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "status": "PARTIAL-TEMPLATE-REPLICATION",
+  "repo": "allenai/OLMo-2-1124-7B",
+  "transition": "3201B to 3896B",
+  "templates": {
+    "A": {
+      "conflict_error_3201": 0.4583333333333333,
+      "conflict_error_3896": 0.21666666666666667,
+      "conflict_error_drop": {
+        "n_unique_items": 116,
+        "high_minus_low": 0.22413793103448276,
+        "bootstrap_95": [
+          0.12931034482758622,
+          0.31896551724137934
+        ],
+        "bootstrap_p_le_0": 0.0
+      },
+      "neutral_error_3201": 0.1,
+      "neutral_error_3896": 0.0,
+      "neutral_error_drop": {
+        "n_unique_items": 120,
+        "high_minus_low": 0.1,
+        "bootstrap_95": [
+          0.05,
+          0.15833333333333333
+        ],
+        "bootstrap_p_le_0": 0.0
+      },
+      "neutral_source_gain_3201": 1.652032979329427,
+      "neutral_source_gain_3896": 3.1776382446289064,
+      "neutral_source_gain_increase": {
+        "n_unique_items": 120,
+        "high_minus_low": 1.5256052652994792,
+        "bootstrap_95": [
+          1.2855661773681641,
+          1.7723493830362955
+        ],
+        "bootstrap_p_le_0": 0.0
+      }
+    },
+    "B": {
+      "conflict_error_3201": 0.26666666666666666,
+      "conflict_error_3896": 0.1,
+      "conflict_error_drop": {
+        "n_unique_items": 116,
+        "high_minus_low": 0.16379310344827586,
+        "bootstrap_95": [
+          0.08620689655172414,
+          0.2413793103448276
+        ],
+        "bootstrap_p_le_0": 0.0
+      },
+      "neutral_error_3201": 0.0,
+      "neutral_error_3896": 0.016666666666666666,
+      "neutral_error_drop": {
+        "n_unique_items": 120,
+        "high_minus_low": -0.016666666666666666,
+        "bootstrap_95": [
+          -0.041666666666666664,
+          0.0
+        ],
+        "bootstrap_p_le_0": 1.0
+      },
+      "neutral_source_gain_3201": 2.617992814381917,
+      "neutral_source_gain_3896": 3.3053560892740887,
+      "neutral_source_gain_increase": {
+        "n_unique_items": 120,
+        "high_minus_low": 0.6873632748921712,
+        "bootstrap_95": [
+          0.4567765935262045,
+          0.9208144950866699
+        ],
+        "bootstrap_p_le_0": 0.0
+      }
+    },
+    "C": {
+      "conflict_error_3201": 0.7416666666666667,
+      "conflict_error_3896": 0.675,
+      "conflict_error_drop": {
+        "n_unique_items": 116,
+        "high_minus_low": 0.06896551724137931,
+        "bootstrap_95": [
+          -0.02586206896551724,
+          0.16379310344827586
+        ],
+        "bootstrap_p_le_0": 0.0991
+      },
+      "neutral_error_3201": 0.35833333333333334,
+      "neutral_error_3896": 0.35,
+      "neutral_error_drop": {
+        "n_unique_items": 120,
+        "high_minus_low": 0.008333333333333333,
+        "bootstrap_95": [
+          -0.075,
+          0.09166666666666666
+        ],
+        "bootstrap_p_le_0": 0.4581
+      },
+      "neutral_source_gain_3201": 0.34328152338663737,
+      "neutral_source_gain_3896": 0.4572720209757487,
+      "neutral_source_gain_increase": {
+        "n_unique_items": 120,
+        "high_minus_low": 0.11399049758911133,
+        "bootstrap_95": [
+          -0.0929869818687439,
+          0.3185492865244546
+        ],
+        "bootstrap_p_le_0": 0.1407
+      }
+    }
+  },
+  "gate": {
+    "all_templates_conflict_drop_lower_gt_0_05": false
+  }
+}

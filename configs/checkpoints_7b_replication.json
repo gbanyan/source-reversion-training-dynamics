@@ -1,0 +1,16 @@
+{
+  "repo": "allenai/OLMo-2-1124-7B",
+  "stage": "stage1-independent-size-replication",
+  "selection": "Eight checkpoints spanning training and the relative locations of the 1B transitions",
+  "estimated_safetensors_bytes_per_checkpoint": 29194510544,
+  "checkpoints": [
+    {"step": 24000, "tokens_b": 101, "revision": "stage1-step24000-tokens101B"},
+    {"step": 357000, "tokens_b": 1498, "revision": "stage1-step357000-tokens1498B"},
+    {"step": 453000, "tokens_b": 1901, "revision": "stage1-step453000-tokens1901B"},
+    {"step": 477000, "tokens_b": 2001, "revision": "stage1-step477000-tokens2001B"},
+    {"step": 572000, "tokens_b": 2400, "revision": "stage1-step572000-tokens2400B"},
+    {"step": 715000, "tokens_b": 2999, "revision": "stage1-step715000-tokens2999B"},
+    {"step": 763000, "tokens_b": 3201, "revision": "stage1-step763000-tokens3201B"},
+    {"step": 928646, "tokens_b": 3896, "revision": "stage1-step928646-tokens3896B"}
+  ]
+}

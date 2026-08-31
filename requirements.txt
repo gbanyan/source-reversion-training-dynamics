@@ -1,0 +1,10 @@
+# Analysis environment (versions intentionally left unpinned until the author
+# records the final public environment used for the release).
+numpy
+scipy
+matplotlib
+
+# Required only for model-evaluation runners in code/.
+torch
+transformers
+huggingface_hub

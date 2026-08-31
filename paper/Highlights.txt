@@ -1,0 +1,7 @@
+Highlights
+
+- Source and parametric choices exchange non-monotonically during pretraining.
+- The pattern recurs at OLMo-2 1B and 7B with no observed shared boundary.
+- Source-position residual patching shifts selected X-versus-Y margins.
+- Conditional frozen peaks show source effects across three axes and two families.
+- Random donors bound source-content claims; the predictor gate fails.

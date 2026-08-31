@@ -1,0 +1,21 @@
+{
+  "repo": "allenai/OLMo-2-0425-1B",
+  "stage": "stage1",
+  "selection": "12 frozen checkpoints spanning 21B to 4001B training tokens",
+  "estimated_safetensors_bytes_per_checkpoint": 5939687552,
+  "estimated_total_download_bytes_without_cache_reuse": 71276250624,
+  "checkpoints": [
+    {"step": 10000, "tokens_b": 21, "revision": "stage1-step10000-tokens21B"},
+    {"step": 30000, "tokens_b": 63, "revision": "stage1-step30000-tokens63B"},
+    {"step": 60000, "tokens_b": 126, "revision": "stage1-step60000-tokens126B"},
+    {"step": 120000, "tokens_b": 252, "revision": "stage1-step120000-tokens252B"},
+    {"step": 240000, "tokens_b": 504, "revision": "stage1-step240000-tokens504B"},
+    {"step": 360000, "tokens_b": 755, "revision": "stage1-step360000-tokens755B"},
+    {"step": 480000, "tokens_b": 1007, "revision": "stage1-step480000-tokens1007B"},
+    {"step": 720000, "tokens_b": 1510, "revision": "stage1-step720000-tokens1510B"},
+    {"step": 950000, "tokens_b": 1993, "revision": "stage1-step950000-tokens1993B"},
+    {"step": 1190000, "tokens_b": 2496, "revision": "stage1-step1190000-tokens2496B"},
+    {"step": 1530000, "tokens_b": 3209, "revision": "stage1-step1530000-tokens3209B"},
+    {"step": 1907359, "tokens_b": 4001, "revision": "stage1-step1907359-tokens4001B"}
+  ]
+}

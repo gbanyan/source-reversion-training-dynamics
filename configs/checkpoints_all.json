@@ -1,0 +1,31 @@
+{
+  "repo": "allenai/OLMo-2-0425-1B",
+  "stage": "stage1-deterministic-confirmation",
+  "selection": "Union of sparse and dense checkpoints, sorted by training tokens",
+  "checkpoints": [
+    {"step": 10000, "tokens_b": 21, "revision": "stage1-step10000-tokens21B"},
+    {"step": 30000, "tokens_b": 63, "revision": "stage1-step30000-tokens63B"},
+    {"step": 40000, "tokens_b": 84, "revision": "stage1-step40000-tokens84B"},
+    {"step": 50000, "tokens_b": 105, "revision": "stage1-step50000-tokens105B"},
+    {"step": 60000, "tokens_b": 126, "revision": "stage1-step60000-tokens126B"},
+    {"step": 120000, "tokens_b": 252, "revision": "stage1-step120000-tokens252B"},
+    {"step": 240000, "tokens_b": 504, "revision": "stage1-step240000-tokens504B"},
+    {"step": 300000, "tokens_b": 630, "revision": "stage1-step300000-tokens630B"},
+    {"step": 360000, "tokens_b": 755, "revision": "stage1-step360000-tokens755B"},
+    {"step": 480000, "tokens_b": 1007, "revision": "stage1-step480000-tokens1007B"},
+    {"step": 720000, "tokens_b": 1510, "revision": "stage1-step720000-tokens1510B"},
+    {"step": 810000, "tokens_b": 1699, "revision": "stage1-step810000-tokens1699B"},
+    {"step": 860000, "tokens_b": 1804, "revision": "stage1-step860000-tokens1804B"},
+    {"step": 910000, "tokens_b": 1909, "revision": "stage1-step910000-tokens1909B"},
+    {"step": 950000, "tokens_b": 1993, "revision": "stage1-step950000-tokens1993B"},
+    {"step": 1000000, "tokens_b": 2098, "revision": "stage1-step1000000-tokens2098B"},
+    {"step": 1050000, "tokens_b": 2203, "revision": "stage1-step1050000-tokens2203B"},
+    {"step": 1100000, "tokens_b": 2307, "revision": "stage1-step1100000-tokens2307B"},
+    {"step": 1140000, "tokens_b": 2391, "revision": "stage1-step1140000-tokens2391B"},
+    {"step": 1190000, "tokens_b": 2496, "revision": "stage1-step1190000-tokens2496B"},
+    {"step": 1330000, "tokens_b": 2790, "revision": "stage1-step1330000-tokens2790B"},
+    {"step": 1430000, "tokens_b": 2999, "revision": "stage1-step1430000-tokens2999B"},
+    {"step": 1530000, "tokens_b": 3209, "revision": "stage1-step1530000-tokens3209B"},
+    {"step": 1907359, "tokens_b": 4001, "revision": "stage1-step1907359-tokens4001B"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "repo": "EleutherAI/pythia-1.4b-deduped",
+  "stage": "independent-family-full-confirmation",
+  "selection": "24 fixed checkpoints spanning the public Pythia training trajectory",
+  "checkpoints": [
+    {"step": 0, "tokens_b": 0, "revision": "step0"},
+    {"step": 1000, "tokens_b": 2, "revision": "step1000"},
+    {"step": 2000, "tokens_b": 4, "revision": "step2000"},
+    {"step": 4000, "tokens_b": 8, "revision": "step4000"},
+    {"step": 8000, "tokens_b": 17, "revision": "step8000"},
+    {"step": 12000, "tokens_b": 25, "revision": "step12000"},
+    {"step": 16000, "tokens_b": 34, "revision": "step16000"},
+    {"step": 24000, "tokens_b": 50, "revision": "step24000"},
+    {"step": 32000, "tokens_b": 67, "revision": "step32000"},
+    {"step": 40000, "tokens_b": 84, "revision": "step40000"},
+    {"step": 48000, "tokens_b": 101, "revision": "step48000"},
+    {"step": 56000, "tokens_b": 117, "revision": "step56000"},
+    {"step": 64000, "tokens_b": 134, "revision": "step64000"},
+    {"step": 72000, "tokens_b": 151, "revision": "step72000"},
+    {"step": 80000, "tokens_b": 168, "revision": "step80000"},
+    {"step": 88000, "tokens_b": 184, "revision": "step88000"},
+    {"step": 96000, "tokens_b": 201, "revision": "step96000"},
+    {"step": 104000, "tokens_b": 218, "revision": "step104000"},
+    {"step": 112000, "tokens_b": 235, "revision": "step112000"},
+    {"step": 120000, "tokens_b": 252, "revision": "step120000"},
+    {"step": 128000, "tokens_b": 268, "revision": "step128000"},
+    {"step": 136000, "tokens_b": 285, "revision": "step136000"},
+    {"step": 140000, "tokens_b": 293, "revision": "step140000"},
+    {"step": 143000, "tokens_b": 300, "revision": "step143000"}
+  ]
+}

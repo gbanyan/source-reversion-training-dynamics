@@ -1,0 +1,25 @@
+# Local Python/cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Local recomputation outputs and logs
+results/recomputed/
+*.log
+
+# Model weights and local Hugging Face caches
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+checkpoints/
+.cache/
+
+# Private machine/runtime paths must never be committed
+/private/
+/local/
+/nas/

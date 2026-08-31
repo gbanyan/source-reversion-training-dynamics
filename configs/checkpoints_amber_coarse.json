@@ -1,0 +1,19 @@
+{
+  "repo": "IFM/Amber",
+  "stage": "amber-7b-pretraining",
+  "checkpoint_unit": "LLM360 checkpoint ordinal; token count is intentionally not imputed",
+  "checkpoints": [
+    {"step": 0, "tokens_b": 0, "revision": "ckpt_000"},
+    {"step": 8, "tokens_b": 8, "revision": "ckpt_008"},
+    {"step": 16, "tokens_b": 16, "revision": "ckpt_016"},
+    {"step": 32, "tokens_b": 32, "revision": "ckpt_032"},
+    {"step": 64, "tokens_b": 64, "revision": "ckpt_064"},
+    {"step": 96, "tokens_b": 96, "revision": "ckpt_096"},
+    {"step": 128, "tokens_b": 128, "revision": "ckpt_128"},
+    {"step": 176, "tokens_b": 176, "revision": "ckpt_176"},
+    {"step": 224, "tokens_b": 224, "revision": "ckpt_224"},
+    {"step": 272, "tokens_b": 272, "revision": "ckpt_272"},
+    {"step": 320, "tokens_b": 320, "revision": "ckpt_320"},
+    {"step": 358, "tokens_b": 358, "revision": "ckpt_358"}
+  ]
+}
