@@ -16,5 +16,5 @@ release used in a submission.
       `DATA-AVAILABILITY.md`.
 - [x] Decide whether the raw semantic matrix may be redistributed; this review
       release records the restricted-data statement and does not include it.
-- [x] Create a tagged review release (`v0.1.3-review`). Optional archival with
+- [x] Create a tagged review release (`v0.1.4-review`). Optional archival with
       Zenodo or Mendeley Data can add an immutable DOI later.

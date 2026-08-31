@@ -30,7 +30,8 @@ the checksum file itself).
 
 Start with [`paper/MANUSCRIPT.pdf`](paper/MANUSCRIPT.pdf) for the article and
 [`paper/SUPPLEMENTARY.pdf`](paper/SUPPLEMENTARY.pdf) for the supplementary
-material. The source versions are provided alongside the PDFs.
+material. The source versions are provided alongside the PDFs. The standalone
+submission abstract is [`paper/abstract.txt`](paper/abstract.txt).
 
 ## Regenerating the PDFs
 

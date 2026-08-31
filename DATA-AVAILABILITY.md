@@ -6,7 +6,7 @@
 > summaries, selected raw JSON artifacts, and the rendered figures for this
 > study are available at:
 > `https://github.com/gbanyan/source-reversion-training-dynamics`
-> (tag `v0.1.3-review`).
+> (tag `v0.1.4-review`).
 > The public repository does not redistribute the upstream language-model
 > weights or third-party corpora. The complete semantic raw matrix is not
 > included in this review release. The repository contains the validated pooled
