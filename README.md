@@ -9,6 +9,10 @@ answer exchange top-choice preference across released language-model
 checkpoints. It then tests the causal effect of replacing the residual state at
 the answer-bearing source position at selected transitions.
 
+Authors: Jing-Rung Huang (corresponding author) and Wen-Hsiang Lu, Department
+of Computer Science and Information Engineering, National Cheng Kung
+University, Taiwan.
+
 ## Repository layout
 
 | Directory | Contents |

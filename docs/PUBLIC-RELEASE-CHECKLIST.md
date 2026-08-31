@@ -9,13 +9,12 @@ release used in a submission.
 - [x] Internal launcher scripts and machine-specific paths excluded.
 - [x] Model weights and third-party corpora excluded.
 - [x] Public README and data/code statement template included.
-- [ ] Add author names, affiliations, ORCID IDs, and corresponding-author
+- [x] Add author names, affiliations, ORCID IDs, and corresponding-author
       information to the manuscript and repository metadata.
 - [ ] Choose and add code/data licenses.
 - [x] Public repository URL and review release tag recorded in
       `DATA-AVAILABILITY.md`.
-- [ ] Decide whether the raw semantic matrix may be redistributed; if yes,
-      add it under a documented path, otherwise finalize the restricted-data
-      statement.
-- [ ] Create a tagged release and optionally archive that release with Zenodo
-      or Mendeley Data for an immutable DOI.
+- [x] Decide whether the raw semantic matrix may be redistributed; this review
+      release records the restricted-data statement and does not include it.
+- [x] Create a tagged review release (`v0.1.3-review`). Optional archival with
+      Zenodo or Mendeley Data can add an immutable DOI later.

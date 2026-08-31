@@ -1,8 +1,15 @@
 # Non-monotonic source reversion across language-model pretraining checkpoints: behavioral trajectories and source-position residual interventions
 
-**Authors:** [Author names and affiliations to be supplied]
+**Authors:** Jing-Rung Huang and Wen-Hsiang Lu
 
-**Corresponding author:** [Name, email, and affiliation to be supplied]
+**Affiliation (both authors):** Department of Computer Science and Information
+Engineering, National Cheng Kung University, No. 1 University Road, Tainan City
+701, Taiwan
+
+**ORCID:** Jing-Rung Huang, [0000-0003-4776-3550](https://orcid.org/0000-0003-4776-3550);
+Wen-Hsiang Lu, [0009-0002-5149-6790](https://orcid.org/0009-0002-5149-6790)
+
+**Corresponding author:** Jing-Rung Huang, `gbanyan.huang@gmail.com`
 
 ## Abstract
 
@@ -886,7 +893,7 @@ a patch as source-content-specific mediation.
 
 The public review release at
 `https://github.com/gbanyan/source-reversion-training-dynamics` (tag
-`v0.1.2-review`) contains the analysis scripts, checkpoint manifests,
+`v0.1.3-review`) contains the analysis scripts, checkpoint manifests,
 canonical summary JSON, selected raw JSON artifacts, and generated figures.
 The authoritative semantic pooled summary is
 `results/canonical/cross_family_semantic_pool.json`; the complete semantic raw
@@ -912,15 +919,21 @@ The machine-readable semantic detail and fact-cluster sensitivity reports are
 
 ### Funding
 
-[To be completed by the authors.]
+This research did not receive any specific grant from funding agencies in the
+public, commercial, or not-for-profit sectors.
 
 ### Competing interests
 
-[To be confirmed by the authors and entered in the submission system.]
+The authors declare that they have no known competing financial interests or
+personal relationships that could have appeared to influence the work reported
+in this paper.
 
 ### Author contributions
 
-[To be completed in CRediT format after the author list is finalized.]
+Jing-Rung Huang: Conceptualization, Methodology, Software, Validation, Formal
+analysis, Investigation, Data curation, Visualization, Writing -- original
+draft, Writing -- review & editing. Wen-Hsiang Lu: Supervision, Writing --
+review & editing.
 
 ### Ethics statement
 
@@ -932,19 +945,21 @@ prompts; it does not collect human or animal subject data.
 Analysis code, frozen configuration files, canonical summaries, selected raw
 JSON artifacts, and figures are available at
 `https://github.com/gbanyan/source-reversion-training-dynamics` (tag
-`v0.1.2-review`). The repository does not redistribute upstream model weights
+`v0.1.3-review`). The repository does not redistribute upstream model weights
 or third-party corpora. The complete semantic raw matrix is not included in
 this release; the validated pooled summary and derived tables are public, and
 access to any restricted raw material follows the applicable data terms.
 
 ### Generative-AI declaration
 
-During manuscript preparation, a generative-AI assistant (OpenAI Codex) was
-used for repository navigation, evidence-table construction, drafting, and
-language editing. The assistant was not an author. The authors reviewed and
-edited the manuscript and take full responsibility for all scientific decisions,
-artifact selection, numerical verification, and final text. Any additional AI
-tools used by the authors should be added to this declaration before submission.
+During the preparation of this work the authors used generative AI tools
+(OpenAI's GPT/Codex and Anthropic's Claude) to draft and edit the manuscript
+text and to check the internal consistency of factual and numerical claims
+against the underlying experimental results. The authors conceived the study,
+designed and conducted all experiments, generated and verified all data and
+results, and made all analytical and interpretive decisions. After using these
+tools, the authors reviewed and edited the content as needed and take full
+responsibility for the content of the publication.
 
 ## References
 
